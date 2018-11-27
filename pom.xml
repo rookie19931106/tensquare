@@ -8,8 +8,8 @@
     <artifactId>tenquare-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>tensquare-base</module>
-        <module>tensquare-common</module>
+        <module>tensquare_base</module>
+        <module>tensquare_common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -45,6 +45,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
 
     <repositories>
